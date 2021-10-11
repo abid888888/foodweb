@@ -1,0 +1,25 @@
+package jav1;
+
+public class oddeven {
+	public static void main(String args[]) {
+		int n=12;
+		if(n%2==0)
+			System.out.println("even");
+		else System.out.println("odd");
+		int sum=0,fl=0;
+		for(int i=0;i<=100;i++)
+			sum+=i;
+		System.out.println(sum);
+		for(int j=2;j<=n/2;j++) {
+			if(n%j==0) {
+				System.out.println("not prime");
+		fl=1;
+		break;}
+			
+			
+	}
+	if(fl==0)
+		System.out.println("prime");
+
+}
+}

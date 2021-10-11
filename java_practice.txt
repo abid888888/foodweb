@@ -1,0 +1,29 @@
+package jav1;
+
+public class jav1 {
+	public static void main(String args[]) {
+		System.out.println("hello world....!");
+		System.out.println("hello world 2");
+		System.out.println("java is a good language");
+		int _a=28;
+		float f=12.2f;
+		double d=2.888;
+		short s=12;
+		String ss="any";
+		System.out.println("value of a :"+_a);
+		System.out.println("value of f :"+f);
+		System.out.println("value of d :"+d);
+		System.out.println("value of s :"+s);
+		System.out.println("value of string :"+ss);
+		
+		int a=30, b=40, c=10, largest;  
+		//object of the Scanner class  
+		
+		largest = c > (a > b ? a : b) ? c : ((a > b) ? a : b);  
+		System.out.println("The largest number is: "+largest);  
+		}  
+		
+		
+		
+	}
+
